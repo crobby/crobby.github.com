@@ -3,7 +3,7 @@ layout: post
 title: "Debugging Openstack Horizon with PyCharm"
 description: ""
 category : lessons
-tagline: "Supporting tagline"
+tagline: "ftw"
 tags : [tutorial, pycharm, horizon, openstack, debug]
 ---
 {% include JB/setup %}
