@@ -53,17 +53,17 @@ you will also want to make sure that any firewalls involved will allow the requi
 You may be prompted to "Add files to Git".  We don't actually want to have these files stored in git, so you should uncheck them all and click "Ok".
 
 You should see something like the following in your Console tab:
-```bash
-pydev debugger: starting
+```
+    pydev debugger: starting
 
-Connected to pydev debugger (build 139.1659)
-Performing system checks...
+    Connected to pydev debugger (build 139.1659)
+    Performing system checks...
 
-System check identified no issues (0 silenced).
-April 15, 2015 - 18:25:41
-Django version 1.7.7, using settings 'openstack_dashboard.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CONTROL-C.
+    System check identified no issues (0 silenced).
+    April 15, 2015 - 18:25:41
+    Django version 1.7.7, using settings 'openstack_dashboard.settings'
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
 ```
 12) You should be able to go to http://127.0.0.1:8000 and be greeted with the Horizon login page.
 
