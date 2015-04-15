@@ -12,25 +12,27 @@ I have been using PyCharm to code and debug Openstack Horizon for about a year n
 Call me weak for not just using pdb or my raw programmer instincts, but I
 love my IDE and find that I'm much more effective when using it.
 
-## My setup
+### My setup
 
 You may have a slightly different setup and preferences, but you should be able to adapt these steps to your environment.
 For this example, I'm using PyCharm 4.0.6, but I have also run successfully under PyCharm 3.4.x.
 
-1)  I am running <a href="http://docs.openstack.org/developer/devstack/">devstack</a> on fedora 20.  
-  This shouldn't really matter much as you should be able to run and debug Horizon with any setup, but I'm including it fyi.
-  
-2)  In PyCharm, choose New Project and then choose Check out from Version Control.
+I am running <a href="http://docs.openstack.org/developer/devstack/">devstack</a> on fedora 20.  
+This shouldn't really matter much as you should be able to run and debug Horizon with any setup, but I'm including it fyi.
 
-3)  Choose GitHub and for the Git Repository URL enter: git://github.com/openstack/horizon.git  
+### How to
+
+1)  In PyCharm, choose New Project and then choose Check out from Version Control.
+
+2)  Choose GitHub and for the Git Repository URL enter: git://github.com/openstack/horizon.git  
 choose your parent directory and target directory names as well, then click Clone.  After it finishes
 the clone, go ahead and tell it to open the newly created directory.
 
-4)  I like to run in a virtual environment, so now we need to create that venv.  Open up a terminal window and change
+3)  I like to run in a virtual environment, so now we need to create that venv.  Open up a terminal window and change
 to the directory where you cloned the Horizon source.  Run the command `python tools/install_venv.py` to trigger
 the installation of your virtual environment.
 
-5) Back in PyCharm, click on File and then Settings.  Under Project Interpreter, use the select box at the top to choose 
+4) Back in PyCharm, click on File and then Settings.  Under Project Interpreter, use the select box at the top to choose 
 the interpreter from <your local horizon directory>/.venv/bin/python.  Click Ok.
 
 5)  Click on Run and then Edit Configurations.  It should have recognized the project as a Django server project.
