@@ -65,6 +65,7 @@ You should see something like the following in your Console tab:
     Starting development server at http://127.0.0.1:8000/
     Quit the server with CONTROL-C.
 ```
+
 12) You should be able to go to http://127.0.0.1:8000 and be greeted with the Horizon login page.
 
 13) You can set breakpoints in PyCharm by clicking on the bar to the left of the line of code where
